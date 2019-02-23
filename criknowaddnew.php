@@ -108,7 +108,7 @@
                 $context_update_doc_tab  = stream_context_create($options_update_doc_tab);
                 $result_update_doc_tab = file_get_contents($url_update_doc_tab, false, $context_update_doc_tab);
                 $arr_update_doc_tab = json_decode($result_update_doc_tab,true);
-                print_r($arr_update_doc_tab);
+                // print_r($arr_update_doc_tab);
                 if($arr_update_doc_tab['pk'] == null){
                   $var1=0;
                 }else{
@@ -147,8 +147,8 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);
-           print_r($s);
+           // print_r($arr);
+           // print_r($s);
     }
   ?>
 
