@@ -148,10 +148,10 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);
+           // print_r($arr);
           $va=$arr['pk'];
-          print_r($va);
-           print_r($arr);
+          // print_r($va);
+          //  print_r($arr);
 
 
           // test_ranking
