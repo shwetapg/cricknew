@@ -1,0 +1,21 @@
+.nav_customized{
+	background-color:#35c2f9;color:white;border-color:unset;
+}
+
+.nav_header_customized{
+	padding: 0px 10px;
+}
+
+.brand_text{
+	display: block;font-size: 12px;margin-left: 14px;
+}
+
+.btn{
+	border-radius: 2px !important;
+	/*color: white !important;*/
+}
+.logout_but{
+	    position: absolute;
+    right: 7px;
+    top: 135px;
+}
