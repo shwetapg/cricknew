@@ -174,7 +174,7 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);
+           // print_r($arr);
           
 
            // odi_ranking
@@ -197,7 +197,7 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);  
+           // print_r($arr);  
 
 
            // ttwenty_ranking
@@ -220,7 +220,7 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);
+           // print_r($arr);
 
 
            // batting_test
@@ -256,7 +256,7 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);
+           // print_r($arr);
 
 
             // batting_odi
@@ -292,7 +292,7 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);
+           // print_r($arr);
 
 
             // batting_ipl
@@ -364,7 +364,7 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);
+           // print_r($arr);
 
 
 
@@ -400,7 +400,7 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);
+           // print_r($arr);
 
 
             // bowling_odi
@@ -434,7 +434,7 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);
+           // print_r($arr);
 
 
             // bowling_ipl
@@ -468,7 +468,7 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);
+           // print_r($arr);
 
 
             // bowling_t20
@@ -502,7 +502,7 @@
           $context  = stream_context_create($options);
           $result = file_get_contents($url, false, $context);
           $arr = json_decode($result,true);
-           print_r($arr);
+           // print_r($arr);
 
 
 
@@ -546,7 +546,7 @@ function imageIsLoaded(e) {
 </script>
 
 <div>
-        <nav class="navbar navbar-inverse" style="background-color:#163739;border-color:#163739;;">
+        <nav class="navbar navbar-inverse" style="background-color:lightgreen;border-color:lightgreen;">
           <?php session_start(); ?>
         <h5 class="welcome" style="color:white;text-align: right;margin-right: 193px;"><b>Welcome   <?php echo $_SESSION['admin_name']; ?>,</b></h5>
         <div style="text-align: right;margin-top: -28px;margin-right: 24px;"><a href="./criknowlog.php" style="color: red;"><b>LOGOUT</b></a></div>
