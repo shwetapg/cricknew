@@ -61,14 +61,13 @@ session_start();
 
           <select class="form-control" id='filterText' onchange='filterText()' style="width:15%;margin-top: -30px;margin-left: 200px;">
                  <option>Filter by Category</option>
+                 <option>General Category</option>
                 </select>
 
 
           <select name="blang" id='filterText' onchange='filterText()' class="form-control" style="width:15%;margin-top: -34px;margin-left: 416px;">
             <option>Filter by topic</option>
-            <option></option>
-            <option></option>
-            <option></option>
+            <option>General Topic</option>
           </select>
 
           <div style="margin-top:-27px;margin-left: 641px;">

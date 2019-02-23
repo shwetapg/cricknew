@@ -226,7 +226,7 @@ function imageIsLoaded(e) {
 
 
            <button type="submit" id="submit" name="submit" style="margin-left:36%;background-color:lightgreen;">PUBLISH VIDEOS</button>
-           <button style="margin-left:10%;background-color:lightgreen;">CANCEL</button><br/><br/>
+           <button style="margin-left:10%;background-color:lightgreen;" onclick="window.location.href='./criknowvideos.php'">CANCEL</button><br/><br/>
 
          <!--  <button type="submit" name="send_message" id="send_message"  class="btn send_msg" style="">SEND MESSAGE</button> -->
         

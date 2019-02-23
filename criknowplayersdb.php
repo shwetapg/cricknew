@@ -66,9 +66,9 @@ session_start();
      <select name="blang" id="blang" class="form-control" style="width:15%;margin-top: -30px;
 margin-left: 200px;">
             <option>Filter by Country</option>
+           <!--  <option>Match Report</option>
             <option>Match Report</option>
-            <option>Match Report</option>
-            <option>Match Report</option>
+            <option>Match Report</option> -->
           </select>
 
           <!-- <select class="form-control" style="width:15%;margin-top: -30px;margin-left: 200px;">
@@ -80,9 +80,9 @@ margin-left: 200px;">
  -->
           <select name="blang" id="blang" class="form-control" style="width:15%;margin-top: -34px;margin-left: 416px;">
             <option>Filter by Team</option>
+           <!--  <option>Match Report</option>
             <option>Match Report</option>
-            <option>Match Report</option>
-            <option>Match Report</option>
+            <option>Match Report</option> -->
           </select>
 
           <div style="margin-top:-27px;margin-left: 641px;">

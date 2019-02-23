@@ -229,7 +229,7 @@ function imageIsLoaded(e) {
              <!--  <p id="demo"></p> -->
 
            <button type="submit" id="buttoncheck" name="submit" style="margin-left:36%;background-color:lightgreen;">PUBLISH NEWS</button>
-           <button style="margin-left:10%;background-color:lightgreen;">CANCEL</button><br/><br/>
+           <button style="margin-left:10%;background-color:lightgreen;" onclick="window.location.href='./criknownews.php'">CANCEL</button><br/><br/>
 
         
         </div>

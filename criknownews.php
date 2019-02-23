@@ -88,9 +88,7 @@ margin-left: 200px;">
  -->
           <select name="blang" id='filterText' onchange='filterText()' class="form-control" style="width:15%;margin-top: -34px;margin-left: 416px;">
             <option>Filter by topic</option>
-            <option></option>
-            <option></option>
-            <option></option>
+            <option>General Topic</option>
           </select>
 
           <div style="margin-top:-27px;margin-left: 641px;">

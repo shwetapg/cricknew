@@ -655,8 +655,18 @@ function imageIsLoaded(e) {
                  <label for="bowling_style" style="margin-left:29%;">Bowling Style:</label>
                 <select name="bowling_style" id="bowling_style" class="form-control" style="margin-left:38%;margin-top:-2%;width:25%;">
                  <option>Select Bowling Style</option>
-                 <option>Right-arm medium</option>
-                 <option>Left-arm medium</option>
+                 <option>Right-arm fast</option>
+                  <option>Right-arm fast medium </option>
+                   <option>Right-arm medium fast </option>
+                    <option>Right-arm medium </option>
+                     <option>Left-arm fast </option>
+                      <option>Left-arm fast medium </option>
+                       <option>Left-arm medium fast </option>
+                       <option>Left-arm medium </option>
+                       <option>Off break (right-arm) </option>
+                       <option>Leg break (right-arm) </option>
+                       <option>Slow left-arm orthodox</option>
+                       <option>Slow left-arm chinaman</option>
                 </select>
                 </div><br/>
 
